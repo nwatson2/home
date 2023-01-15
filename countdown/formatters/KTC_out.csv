@@ -1,0 +1,200 @@
+ovr rank,player,position,ktc_val
+1,Patrick Mahomes,QB,9999
+2,Josh Allen,QB,9999
+3,Justin Jefferson,WR,9781
+4,Jalen Hurts,QB,8493
+5,Joe Burrow,QB,8324
+6,Ja'Marr Chase,WR,8211
+7,Justin Herbert,QB,8101
+8,Trevor Lawrence,QB,7009
+9,Lamar Jackson,QB,6921
+10,Justin Fields,QB,6660
+11,CeeDee Lamb,WR,6647
+12,A.J. Brown,WR,6612
+13,Jaylen Waddle,WR,6310
+14,Breece HallR,RB,6281
+15,2023 Early 1st,PICK,6128
+16,Amon-Ra St. Brown,WR,6108
+17,Jonathan Taylor,RB,6038
+18,Kenneth Walker IIIR,RB,6011
+19,Garrett WilsonR,WR,6003
+20,Christian McCaffrey,RB,5998
+21,Tee Higgins,WR,5917
+22,Kyler Murray,QB,5787
+23,Saquon Barkley,RB,5686
+24,Tyreek Hill,WR,5673
+25,Travis Etienne,RB,5671
+26,Chris OlaveR,WR,5606
+27,Kyle Pitts,TE,5445
+28,Stefon Diggs,WR,5386
+29,Tua Tagovailoa,QB,5385
+30,DK Metcalf,WR,5312
+31,DeVonta Smith,WR,5308
+32,2024 Early 1st,PICK,5304
+33,Drake LondonR,WR,5291
+34,Dak Prescott,QB,5261
+35,Mark Andrews,TE,5165
+36,Austin Ekeler,RB,5118
+37,Travis Kelce,TE,5117
+38,Josh Jacobs,RB,5064
+39,Deshaun Watson,QB,5041
+40,2023 Mid 1st,PICK,5028
+41,Javonte Williams,RB,5000
+42,Cooper Kupp,WR,4991
+43,Davante Adams,WR,4946
+44,Rhamondre Stevenson,RB,4908
+45,Jameson WilliamsR,WR,4904
+46,Deebo Samuel,WR,4903
+47,D'Andre Swift,RB,4886
+48,Trey Lance,QB,4787
+49,Christian WatsonR,WR,4771
+50,Nick Chubb,RB,4754
+51,Tony Pollard,RB,4743
+52,Chris Godwin,WR,4732
+53,T.J. Hockenson,TE,4717
+54,George PickensR,WR,4714
+55,Najee Harris,RB,4659
+56,2023 Late 1st,PICK,4654
+57,2024 Mid 1st,PICK,4618
+58,Treylon BurksR,WR,4587
+59,Michael Pittman,WR,4523
+60,2025 Early 1st,PICK,4520
+61,Joe Mixon,RB,4452
+62,D.J. Moore,WR,4433
+63,Jahan DotsonR,WR,4430
+64,Jerry Jeudy,WR,4428
+65,Brandon Aiyuk,WR,4391
+66,Terry McLaurin,WR,4348
+67,George Kittle,TE,4305
+68,Dameon PierceR,RB,4273
+69,Derrick Henry,RB,4272
+70,J.K. Dobbins,RB,4268
+71,2024 Late 1st,PICK,4258
+72,Marquise Brown,WR,4215
+73,Dalvin Cook,RB,4186
+74,Kenny PickettR,QB,4185
+75,Daniel Jones,QB,4175
+76,2025 Mid 1st,PICK,4117
+77,Dallas Goedert,TE,4109
+78,Rachaad WhiteR,RB,4101
+79,Christian Kirk,WR,4028
+80,Miles Sanders,RB,3896
+81,Jared Goff,QB,3878
+82,Diontae Johnson,WR,3856
+83,Amari Cooper,WR,3853
+84,Pat Freiermuth,TE,3835
+85,Mike Williams,WR,3812
+86,AJ Dillon,RB,3809
+87,James CookR,RB,3806
+88,Kirk Cousins,QB,3805
+89,2025 Late 1st,PICK,3763
+90,Aaron Jones,RB,3748
+91,2023 Early 2nd,PICK,3733
+92,Alvin Kamara,RB,3671
+93,Brian RobinsonR,RB,3669
+94,Rashod Bateman,WR,3663
+95,Calvin Ridley,WR,3654
+96,DeAndre Hopkins,WR,3646
+97,Cam Akers,RB,3616
+98,Mike Evans,WR,3610
+99,Isiah PachecoR,RB,3502
+100,Gabriel Davis,WR,3365
+101,Dalton Schultz,TE,3361
+102,Tyler AllgeierR,RB,3340
+103,2023 Mid 2nd,PICK,3334
+104,Keenan Allen,WR,3325
+105,2024 Early 2nd,PICK,3320
+106,David Montgomery,RB,3304
+107,Mac Jones,QB,3264
+108,Elijah Moore,WR,3253
+109,Geno Smith,QB,3239
+110,Wan'Dale RobinsonR,WR,3234
+111,Khalil Herbert,RB,3227
+112,JuJu Smith-Schuster,WR,3226
+113,James Conner,RB,3212
+114,Derek Carr,QB,3209
+115,Donovan Peoples-Jones,WR,3201
+116,David Njoku,TE,3193
+117,Greg DulcichR,TE,3189
+118,Kadarius Toney,WR,3144
+119,Jordan Love,QB,3101
+120,2024 Mid 2nd,PICK,3101
+121,Courtland Sutton,WR,3094
+122,Darnell Mooney,WR,3083
+123,Ezekiel Elliott,RB,3049
+124,2023 Late 2nd,PICK,3044
+125,Romeo DoubsR,WR,3040
+126,Cole Kmet,TE,3038
+127,Rondale Moore,WR,3036
+128,Alec PierceR,WR,3032
+129,Aaron Rodgers,QB,3023
+130,Tyler Lockett,WR,3018
+131,Russell Wilson,QB,3004
+132,Antonio Gibson,RB,2947
+133,Jakobi Meyers,WR,2929
+134,Josh Palmer,WR,2920
+135,2025 Early 2nd,PICK,2920
+136,Darren Waller,TE,2919
+137,Skyy MooreR,WR,2855
+138,Brock PurdyR,QB,2800
+139,Devin Singletary,RB,2771
+140,2024 Late 2nd,PICK,2768
+141,Desmond RidderR,QB,2749
+142,Evan Engram,TE,2746
+143,Isaiah LikelyR,TE,2745
+144,Nico Collins,WR,2735
+145,Dawson Knox,TE,2734
+146,Jamaal Williams,RB,2717
+147,2025 Mid 2nd,PICK,2717
+148,Trey McBrideR,TE,2651
+149,Leonard Fournette,RB,2626
+150,Chase Claypool,WR,2626
+151,Michael Gallup,WR,2623
+152,Elijah Mitchell,RB,2603
+153,Alexander Mattison,RB,2593
+154,Matthew Stafford,QB,2551
+155,Jimmy Garoppolo,QB,2551
+156,Allen Lazard,WR,2544
+157,Zay Jones,WR,2524
+158,John MetchieR,WR,2519
+159,Malik WillisR,QB,2505
+160,Curtis Samuel,WR,2490
+161,Kareem Hunt,RB,2477
+162,Tyler Boyd,WR,2464
+163,Daniel BellingerR,TE,2439
+164,Michael Carter,RB,2427
+165,Chigoziem OkonkwoR,TE,2424
+166,2025 Late 2nd,PICK,2407
+167,Damien Harris,RB,2379
+168,Jaylen WarrenR,RB,2378
+169,D.J. Chark,WR,2363
+170,Hunter Renfrow,WR,2292
+171,Noah Fant,TE,2279
+172,Brandin Cooks,WR,2278
+173,D'Onta Foreman,RB,2259
+174,Tyquan ThorntonR,WR,2241
+175,Chuba Hubbard,RB,2226
+176,Zamir WhiteR,RB,2225
+177,2023 Early 3rd,PICK,2211
+178,Cade OttonR,TE,2205
+179,Clyde Edwards-Helaire,RB,2198
+180,Isaiah Hodgins,WR,2184
+181,Tom Brady,QB,2173
+182,Terrace Marshall,WR,2167
+183,Ryan Tannehill,QB,2151
+184,Darius Slayton,WR,2134
+185,Zach Wilson,QB,2104
+186,Kenneth Gainwell,RB,2093
+187,Michael Thomas,WR,2054
+188,Mecole Hardman,WR,2054
+189,Zonovan KnightR,RB,2054
+190,David BellR,WR,2033
+191,Parris Campbell,WR,2029
+192,Mike White,QB,2022
+193,Isaiah SpillerR,RB,2010
+194,Jelani WoodsR,TE,2009
+195,2023 Mid 3rd,PICK,1989
+196,Jeffery Wilson,RB,1970
+197,Kyren WilliamsR,RB,1969
+198,K.J. Osborn,WR,1922
+199,Baker Mayfield,QB,1881
