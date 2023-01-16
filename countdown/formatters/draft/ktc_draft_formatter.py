@@ -51,14 +51,29 @@ with open(ktc_in_name, 'r') as ktc_in_file:
                 string_line = ','.join(map(str,line))
                 # print(string_line)
                 if(line_count == 2):
-                    string_line = string_line[:-3]
-                    curr_csv_line.append(string_line)
-                    if(string_line in players_23):
-                        curr_year = 23
-                        rank_23 += 1
-                    else:
-                        curr_year = 24
-                        rank_24 += 1
+                    i=0
+                    while(i<4):
+                        temp_line = string_line[:-i]
+                        if (temp_line in players_23):
+                            curr_csv_line.append(temp_line)
+                            curr_year = 23
+                            rank_23 += 1
+                            i=5
+                        elif (temp_line in players_24):
+                            curr_csv_line.append(temp_line)
+                            i=5
+                            curr_year = 24
+                            rank_24 += 1
+                        else:
+                            i += 1
+                    # string_line = string_line[:-3]
+                    # curr_csv_line.append(string_line)
+                    # if(string_line in players_23):
+                    #     curr_year = 23
+                    #     rank_23 += 1
+                    # else:
+                    #     curr_year = 24
+                    #     rank_24 += 1
                 elif(string_line[0] == 'R' and line_count == 4):
                     curr_csv_line.append('RB')
                 elif(string_line[0] == 'W' and line_count == 4):
