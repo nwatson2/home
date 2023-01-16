@@ -1,5 +1,11 @@
 import csv
+from datetime import date
+today = date.today()
+string_date = str(today)
+string_date = ''.join([i for i in string_date]) \
+    .replace('-', '_')
 
+draft_out_name = 'draft%s.csv'%(string_date)
 ktc_in_name = '2023KTC_in.csv'
 ktc_out_name = '2023KTC_out.csv'
 players_23_file = '2023_players.csv'
@@ -21,8 +27,6 @@ with open(players_24_file, 'r') as file24:
     for line in read24:
         string_line = ','.join(map(str,line))
         players_24.append(string_line)
-
-print(players_24)
 
 # reformat txt file
 with open(ktc_in_name, 'r') as ktc_in_file:
@@ -86,9 +90,10 @@ with open(ktc_in_name, 'r') as ktc_in_file:
                     curr_csv_line.append(string_line)
             line_count += 1
 
+#get rid of extra \n's
 text = open(ktc_out_name, 'r')
 text = ''.join([i for i in text]) \
     .replace('\n\n', '\n')
-x = open("ktc_draft.csv",'w')
-x.writelines(text)
-x.close() 
+draft_out = open(draft_out_name,'w')
+draft_out.writelines(text)
+draft_out.close() 
