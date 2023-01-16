@@ -7,6 +7,8 @@ players_24_file = '2024_players.csv'
 
 players_23 = []
 players_24 = []
+rank_23 = 0
+rank_24 = 0
 
 with open(players_23_file, 'r') as file23:
     read23 = csv.reader(file23)
@@ -28,7 +30,7 @@ with open(ktc_in_name, 'r') as ktc_in_file:
     with open(ktc_out_name, 'w') as ktc_out_file:
         ktc_writer = csv.writer(ktc_out_file)
 
-        header = ['ovr rank','player', 'position', 'ktc_val', 'year']
+        header = ['ovr rank','player', 'position', 'ktc_val', 'year', 'year rank']
         wanted = [0,2,4,8]
         ktc_writer.writerow(header)
 
@@ -38,6 +40,10 @@ with open(ktc_in_name, 'r') as ktc_in_file:
             if(line_count == 10):
                 line_count = 0
                 curr_csv_line.append(str(curr_year))
+                if(curr_year == 23):
+                    curr_csv_line.append(str(rank_23))
+                else:
+                    curr_csv_line.append(str(rank_24))
                 ktc_writer.writerow(curr_csv_line)
                 curr_csv_line.clear()
             # if(line_count == 2 or line_count == 4 or line_count == 10):
@@ -49,8 +55,10 @@ with open(ktc_in_name, 'r') as ktc_in_file:
                     curr_csv_line.append(string_line)
                     if(string_line in players_23):
                         curr_year = 23
+                        rank_23 += 1
                     else:
                         curr_year = 24
+                        rank_24 += 1
                 elif(string_line[0] == 'R' and line_count == 4):
                     curr_csv_line.append('RB')
                 elif(string_line[0] == 'W' and line_count == 4):
