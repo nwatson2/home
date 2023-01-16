@@ -52,7 +52,7 @@ with open(ktc_in_name, 'r') as ktc_in_file:
                 # print(string_line)
                 if(line_count == 2):
                     i=0
-                    while(i<4):
+                    while(i<5):
                         temp_line = string_line[:-i]
                         if (temp_line in players_23):
                             curr_csv_line.append(temp_line)
